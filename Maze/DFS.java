@@ -26,6 +26,40 @@ public class DFS {
         }
         return str.toString();
     }
+        public boolean shortDFS(int start,int end,boolean[] b,Stack<Integer> stack,boolean b1){
+        this.start_num = start;
+        int n = 0;
+        boolean e = b1;
+        stack.push(start);
+            int v = stack.peek();
+           while (!b1) {
+               if (!b[v]) {
+                   b[v] = true;
+                   if (v == end) {
+                       wey_path = new ArrayList(stack);
+                       Collections.reverse(stack);
+
+                       return true;
+                   }
+                   for (int i = 0; i < V; i++) {
+                       if (adjMatrix[v][i] == 1 && !b[i]) {
+                           n++;
+                           e = shortDFS(i, end, b, stack, e);
+                           if (e) {
+                               return true;
+
+                           }
+                       }
+                   }
+                   if (n == 0) {
+                       stack.pop();
+                       return false;
+                   }
+               }
+           }
+           return true;
+    }
+
         public void pathDFS(int start,int end){
             System.out.print("Path: ");
             this.start_num = start;
