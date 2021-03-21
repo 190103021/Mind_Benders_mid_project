@@ -25,8 +25,8 @@ and will add new arraylists. After that visited array initialized.
  
  Graph and tree which used:
  
- ![Снимок экрана (90)](https://user-images.githubusercontent.com/78644880/111902469-ccf7f980-8a67-11eb-9fb5-b8d5046c8624.png)
-![Снимок экрана (104)](https://user-images.githubusercontent.com/78644880/111902477-d1bcad80-8a67-11eb-894e-60fe39aa7bff.png)
+![Снимок экрана (105)](https://user-images.githubusercontent.com/78644880/111902651-b0a88c80-8a68-11eb-8e98-f4d37b75ea12.png)
+![Снимок экрана (106)](https://user-images.githubusercontent.com/78644880/111902656-b3a37d00-8a68-11eb-9781-3c1072fff141.png)
 
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
