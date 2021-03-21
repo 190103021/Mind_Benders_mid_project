@@ -1,4 +1,10 @@
 # Mind_Benders_mid_project
+#Algorithm of DFS
+If we consider the algorithm of this graph. Let's start from zero. If it is green, it is added to the stack, and if it is large pink, it marks as visited. Then we add zero to the stack. After it visited then it is removed from the stack. Then we add all
+neighbours. They go on the stack. Eight, three, one.   We marked 1 as visited, it will removed from stack. Then we add seven to stacks, after it marked as visited will  removed from stack. We push to stack neighbour of seven - 2. 2 will visited, then will deleted from stack. But will added neighbours of 2, that is 3 and 5. 3 is already pushed to stack, so its color pink in stack. Then 3 will be visited, it will deleted, 4 will pushed to stack. 4 will visited and it is neighbour is 8, 8 is also already pushed to stack, so color of 8 will be changed to pink in a stack. 4 will removed from stack. After 8 marks as visited, then also removed. There is no other way, so we will come back to 2. 5 will be visited, it will removed, neighbour of 5 - 6 pushes to stack, then it will marked as visited. 6 will be removed. After 3 then 8 will be removed from stack which pushed at the start. That is how dfs algorithm works.
+
+
+
 #Explanation of java code.                                                                                                                                    
 Firstly, in main method I created variable of type Graph, then invoked object of Graph class, this is graph, 7 means number of vertices. 
  Called addEdge method. By addEdge method I can add source and destination vertices and edge between them, source vertex is a vertex which edge begins,
