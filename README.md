@@ -1,5 +1,5 @@
 # Mind_Benders_mid_project
-#Explanation of java code.
+#Explanation of java code.                                                                                                                                    
 Firstly, in main method I created variable of type Graph, then invoked object of Graph class, this is graph, 7 means number of vertices. 
  Called addEdge method. By addEdge method I can add source and destination vertices and edge between them, source vertex is a vertex which edge begins,
  destination vertex is a vertex which edge ends.  By adjlist.get(src).add(dst); I will get src from List adjList and add dst. After I added all vertices 
