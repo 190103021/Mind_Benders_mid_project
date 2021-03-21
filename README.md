@@ -21,7 +21,7 @@ Then I invoked dfsIterative method one more time for experiment, in this case it
 Graph class contain datafields  Integer nodes, List<List<Integer>> adjlist, boolean[] visited; nodes is for number of nodes, vertices, adjList is for adding vertices 
 and edges, array visited is for mark vertices as visited. Then contain constructor, constructor accept variable argNodes. ArgNodes in number of nodes which user
 give and it will equal to nodes in datafield. In next line  adjlist = new ArrayList<>(nodes) adjList will equal to arraylist. In for loop i will check all nodes,
-and will add new arraylists. After that visited array initialized.
+and will add new arraylists. After that visited array initialized
  
  Graph and tree which used:
  
