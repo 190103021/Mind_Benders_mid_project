@@ -23,9 +23,11 @@ and edges, array visited is for mark vertices as visited. Then contain construct
 give and it will equal to nodes in datafield. In next line  adjlist = new ArrayList<>(nodes) adjList will equal to arraylist. In for loop i will check all nodes,
 and will add new arraylists. After that visited array initialized.
  
+ Graph and tree which used:
  
  ![Снимок экрана (90)](https://user-images.githubusercontent.com/78644880/111902469-ccf7f980-8a67-11eb-9fb5-b8d5046c8624.png)
 ![Снимок экрана (104)](https://user-images.githubusercontent.com/78644880/111902477-d1bcad80-8a67-11eb-894e-60fe39aa7bff.png)
+
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
