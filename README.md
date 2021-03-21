@@ -38,8 +38,8 @@ and will add new arraylists. After that visited array initialized
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  
- #When we use DFS?
- We use DFS algorithm in next cases:
+ #When we use DFS?                                                                                                                                                         
+ We use DFS algorithm in next cases:                                                                                                                                       
  1)Detecting cycle in a graph 
 A graph has cycle if and only if we see a back edge during DFS. So we can run DFS for the graph and check for back edges.
 For every visited vertex 'V' if there is an adjacent 'u' such that u is already visited and u is not parent of v,  then there is a cycle in graph
